@@ -18,3 +18,23 @@ body {
     padding: 20px 8%;
     background: rgba(15, 23, 42, 0.8);
 }
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #8b5cf6;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: white;
+}
